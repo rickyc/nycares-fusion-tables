@@ -1,0 +1,18 @@
+### NYCares Volunteering Opportunities Mapped
+
+**Sample**: https://www.google.com/fusiontables/DataSource?docid=1C4oG7H3jDmkY_InfGLhJnITR6c6wzJ3KCLGAcsU&pli=1#map:id=3
+
+**Description**: Scraper for NYCare's website. Inputs data into google fusion tables for mapping purposes.
+
+**Todo:**
+ - [ ] Clean up script / Make a run file
+ - [ ] Make cron task to automate the scraper
+ - [ ] Backup each day's data into it's own fusion table
+ - [ ] Move fusion table data onto a single page web app
+
+ENV Vars
+* NYCARES_USERNAME
+* NYCARES_PASSWORD
+* GOOGLE_USERNAME
+* GOOGLE_PASSWORD
+* GOOGLE_API_KEY
